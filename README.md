@@ -1,5 +1,5 @@
 
-# **SS Plugin**
+# **SS Info Plugin**
 
 ## **Overview**
 The **SS Plugin** is a Minecraft plugin designed to help staff members manage frozen players on the server. When a player is frozen by a staff member, they can use the `/ss` command to open a GUI with information and policies about the screensharing process, including steps for screensharing, reasons for the freeze, and the server’s freeze policy.
@@ -37,12 +37,6 @@ The **SS Plugin** is a Minecraft plugin designed to help staff members manage fr
 The `plugin.yml` is the core configuration file that registers your plugin commands and sets up basic information.
 
 ```yaml
-name: SS
-version: 1.0-Main
-main: me.ash.sS.SS
-api-version: 1.19
-description: A plugin for screensharing when players are frozen by staff members.
-author: YourName
 commands:
   ss:
     description: Opens the Screenshare GUI for frozen players

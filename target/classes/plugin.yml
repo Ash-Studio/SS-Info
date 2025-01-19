@@ -1,0 +1,12 @@
+name: SS
+version: '1.0-Main'
+main: me.ash.sS.SS
+api-version: '1.21'
+authors: [As_h_]
+description: Provides steps for screen share preparation.
+commands:
+  ss:
+    description: Opens the Screenshare GUI for frozen players
+    usage: /<command>
+    permission: ss.command
+    permission-message: You do not have permission to use this command.
